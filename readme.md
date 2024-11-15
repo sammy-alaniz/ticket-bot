@@ -11,4 +11,12 @@ myenv\Scripts\activate
 pip install package_name
 
 # Deactivate when done
-deactivate
+deactivat
+
+
+
+# Generate requirements.txt from currently installed packages
+pip freeze > requirements.txt
+
+# Install packages from requirements.txt
+pip install -r requirements.txte
